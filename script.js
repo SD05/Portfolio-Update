@@ -1,5 +1,5 @@
 let theme = localStorage.getItem("theme");
-let mode = null;
+let mode = localStorage.getItem("theme");
 
 if (theme == null) {
   setTheme("light");
